@@ -58,7 +58,7 @@ section {
 }
 
 div {
-  opacity: 100%;
+  padding: 100px;
 }
 
 .div_about {
@@ -91,16 +91,35 @@ div {
   box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.5);
 }
 
-#projects {
-  /* background-color: #2d98da; */
+.img_slideshow {
+  display: none;
+}
+.dot_white,
+.dot_hover_white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
 }
 
-#skills {
-  /* background-color: #4d69c5; */
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
 }
 
-#contact {
-  /*background-color: #3867d6;*/
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+
+.left_arrow,
+.right_arrow{
+  padding: 0 100px;
+  color: #fff;
+}
+
+.w3-content{
+  text-align: center;
 }
 
 h1 {
