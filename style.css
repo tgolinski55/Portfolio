@@ -7,7 +7,6 @@ body {
   font-size: 100%;
   font-family: sans-serif;
   font-style: normal;
-  background-color: lavender;
 }
 
 div,
@@ -43,7 +42,7 @@ img {
 }
 
 #menu li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
@@ -56,19 +55,19 @@ section {
 }
 
 #home {
-  background-color: #45aaf2;
+  /* background-color: #45aaf2; */
 }
 
 #projects {
-  background-color: #2d98da;
+  /* background-color: #2d98da; */
 }
 
 #skills {
-    background-color: #4d69c5;
+    /* background-color: #4d69c5; */
   }
 
 #contact {
-  background-color: #3867d6;
+  /*background-color: #3867d6;*/
 }
 
 h1{
@@ -76,5 +75,5 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000;
+    color: #fff;
 }
