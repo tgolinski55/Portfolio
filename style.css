@@ -57,9 +57,8 @@ section {
   overflow: hidden;
 }
 
-div{
+div {
   opacity: 100%;
-  
 }
 
 .div_about {
@@ -68,29 +67,28 @@ div{
   padding: 100px;
   display: flex;
   justify-content: center;
-
 }
 
-.div_about_inner{
+.div_about_inner {
   vertical-align: bottom;
   align-self: center;
   padding: 50px;
 }
 
-#about_text{
-  box-shadow: 30px 30px 40px rgba(0,0,0,.5);
+#about_text {
+  box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.5);
   text-align: justify;
   height: fit-content;
   opacity: 80%;
 }
 
-#about_image{
+#about_image {
   opacity: 80%;
   text-align: left;
   height: auto;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 20px 30px 40px rgba(0,0,0,.5);
+  box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.5);
 }
 
 #projects {
@@ -98,24 +96,24 @@ div{
 }
 
 #skills {
-    /* background-color: #4d69c5; */
-  }
+  /* background-color: #4d69c5; */
+}
 
 #contact {
   /*background-color: #3867d6;*/
 }
 
-h1{
-    position: absolute;
-    top:30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000;
-    font-size: 350px;
-    opacity: 30%;
-    z-index: -1;
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 350px;
+  opacity: 30%;
+  z-index: -1;
 }
-h2{
+h2 {
   position: relative;
   align-self: center;
   z-index: 999;
