@@ -88,11 +88,12 @@ div {
   height: auto;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.5);
 }
 
 .img_slideshow {
   display: none;
+  align-self: center;
 }
 .dot_white,
 .dot_hover_white:hover {
@@ -113,12 +114,12 @@ div {
 }
 
 .left_arrow,
-.right_arrow{
-  padding: 0 100px;
+.right_arrow {
+  padding: 0 200px;
   color: #fff;
 }
 
-.w3-content{
+.w3-content {
   text-align: center;
 }
 
@@ -141,4 +142,12 @@ h2 {
   font-style: none;
   font-weight: normal;
   font-size: 42px;
+}
+hr {
+  height: 5px;
+  border-width: 0;
+  width: 500px;
+  margin-left: 10px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
 }

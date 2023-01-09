@@ -25,6 +25,6 @@ var slideIndex = 1;
         for (i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" w3-white", "");
         }
-        x[slideIndex - 1].style.display = "block";
+        x[slideIndex - 1].style.display = "inline-block";
         dots[slideIndex - 1].className += " w3-white";
       }
