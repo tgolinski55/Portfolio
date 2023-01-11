@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta chars="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta chars="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body background="resources/images/image-background-02.png">
-  <header>
-    <a href="#about"><img id="logo_icon" src="resources/images/handytest2_icon_white.png" alt="" /></a>
-    <ul id="menu">
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </header>
-  <section id="about">
-    <h1>About</h1>
-    <div class="div_about">
-      <div class="div_about_inner">
-        <img id="about_image" src="resources/images/image-profil-02.jpg" alt="" />
+  <body background="resources/images/image-background-02.png">
+    <header>
+      <a href="#about"><img id="logo_icon" src="resources/images/handytest2_icon_white.png" alt="" /></a>
+      <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section id="about">
+      <h1>About</h1>
+      <div class="div_about">
+        <div class="div_about_inner">
+          <img id="about_image" src="resources/images/image-profil-02.jpg" alt="" />
+        </div>
+        <div class="div_about_inner" id="about_text">
+          <h2><strong>Hi,</strong></h2>
+          <h2><strong>I'm Tomasz,</strong></h2>
+          <h2>Quality Assurance Specialist</h2>
+          <h2 style="margin-top: 20px; font-size: 26px; text-align: left">
+            ISTQB Certified tester with good knowledge of back-end programming
+          </h2>
+        </div>
       </div>
-      <div class="div_about_inner" id="about_text">
-        <h2>Hi,</h2>
-        <h2>I'm Tomasz,</h2>
-        <h2>Quality Assurance Specialist</h2>
-        <h2 style="margin-top: 20px; font-size: 26px; text-align: left">
-          I specialize in testing desktop applications using TestComplete
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div style="margin: auto; padding: 50px; transform: translateX(-500px)">
+        <hr style="margin: auto" />
+        <h2 style="margin: 0 -245px; opacity: 80%; font-size: 26px; position: relative; top: 50%; left: 50%">
+          Not only testing<br />I'm using my programming background to make usefull aps
         </h2>
       </div>
-    </div>
-  </section>
-  <section id="projects">
-    <h1>Projects</h1>
-    <div style="margin: auto; padding: 50px; transform: translateX(-500px)">
-      <hr style="margin: auto;">
-      <h2 style="margin: 0 -245px; opacity: 80%; font-size: 26px; position: relative; top: 50%; left: 50%;">Not only
-        testing<br>I'm using my
-        programming background to make usefull aps
-      </h2>
-    </div>
-    <div class="w3-content w3-display-container"
-      style="max-width: 1200px; box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5)">
-      <img class="imgSlideshow" src="resources/images/image-handytest.png" style="width: auto; height: 400px" />
-      <img class="imgSlideshow" src="resources/images/image-biletomat.png" style="width: auto; height: 400px" />
-      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width: 100%">
-        <div class="w3-left w3-hover-text-white right_arrow" onclick="plusDivs(-1)">
-          &#10094;
+      <div
+        class="w3-content w3-display-container"
+        style="max-width: 1200px; box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5)">
+        <img
+          class="imgSlideshow"
+          src="resources/images/image-handytest.png"
+          style="width: auto; height: 400px" />
+        <img
+          class="imgSlideshow"
+          src="resources/images/image-biletomat.png"
+          style="width: auto; height: 400px" />
+        <div
+          class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+          style="width: 100%">
+          <div class="w3-left w3-hover-text-white right_arrow" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-white left_arrow" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
         </div>
-        <div class="w3-right w3-hover-text-white left_arrow" onclick="plusDivs(1)">
-          &#10095;
-        </div>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
       </div>
-    </div>
-    <div style="text-align: center; padding: 50px; margin:auto; transform: translateX(500px); ">
-      <hr style="margin: auto; margin-right: auto;">
-      <h2 style="opacity: 80%; font-size: 26px; margin-right: -15px;">
-        More projects can be
-        found on my github</h2>
-    </div>
-  </section>
-  <section id="skills">
-    <h1>Skills</h1>
-  </section>
-  <section id="contact">
-    <h1>Contact</h1>
-  </section>
+      <div style="text-align: center; padding: 50px; margin: 50px auto; transform: translateX(500px)">
+        <hr style="margin: auto; margin-right: auto" />
+        <h2 style="opacity: 80%; font-size: 26px; margin-right: -15px">
+          More projects can be found on my github
+        </h2>
+      </div>
+    </section>
+    <section id="skills">
+      <h1>Skills</h1>
+      <div style="margin: 100px auto; padding: 50px; transform: translateX(-500px)">
+        <hr style="margin: auto" />
+        <h2 style="margin: 0 -245px; opacity: 80%; font-size: 26px; position: relative; top: 50%; left: 50%">
+          <strong>SKILLS</strong><br>
+          - manual testing <br>
+          - preparing documentation <br>
+          - automatic testing using TestComplete <br>
 
-  <script src="scripts.js"></script>
-</body>
-
+        </h2>
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact</h1>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
 </html>
