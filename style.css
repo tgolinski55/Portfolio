@@ -75,11 +75,21 @@ div {
   padding: 50px;
 }
 
+.div_skills {
+  width: 600px;
+  margin: 300px auto;
+  padding: 50px;
+  transform: translateX(-500px);
+  border-style: groove;
+  border-width: 1px;
+  border-color: goldenrod;
+}
+
 #about_text {
   box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.5);
   text-align: justify;
   height: fit-content;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 #about_image {
